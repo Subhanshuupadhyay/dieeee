@@ -1,0 +1,2546 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PomoNow: Free Pomodoro Aesthetic Timer Online</title>
+    <script type="module" crossorigin="" src="assets/index.7a7ac6fd.js"></script>
+    <link rel="stylesheet" href="assets/index.ec18874b.css">
+  <style type="text/css">
+.p-toolbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.p-toolbar-group-left,
+.p-toolbar-group-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+</style><style type="text/css">
+.p-toast {
+    position: fixed;
+    width: 25rem;
+}
+.p-toast-message-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.p-toast-message-text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+.p-toast-top-right {
+    top: 20px;
+    right: 20px;
+}
+.p-toast-top-left {
+    top: 20px;
+    left: 20px;
+}
+.p-toast-bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+.p-toast-bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+.p-toast-top-center {
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.p-toast-bottom-center {
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.p-toast-center {
+    left: 50%;
+    top: 50%;
+    min-width: 20vw;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.p-toast-icon-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.p-toast-icon-close.p-link {
+    cursor: pointer;
+}
+
+/* Animations */
+.p-toast-message-enter-from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+.p-toast-message-leave-from {
+    max-height: 1000px;
+}
+.p-toast .p-toast-message.p-toast-message-leave-to {
+    max-height: 0;
+    opacity: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.p-toast-message-enter-active {
+    -webkit-transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+}
+.p-toast-message-leave-active {
+    -webkit-transition: max-height 0.45s cubic-bezier(0, 1, 0, 1), opacity 0.3s, margin-bottom 0.3s;
+    transition: max-height 0.45s cubic-bezier(0, 1, 0, 1), opacity 0.3s, margin-bottom 0.3s;
+}
+</style><style type="text/css">
+.p-dialog-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    pointer-events: none;
+}
+.p-dialog-mask.p-component-overlay {
+    pointer-events: auto;
+}
+.p-dialog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    pointer-events: auto;
+    max-height: 90%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.p-dialog-content {
+    overflow-y: auto;
+}
+.p-dialog-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+.p-dialog-footer {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+.p-dialog .p-dialog-header-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-dialog .p-dialog-header-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Fluid */
+.p-fluid .p-dialog-footer .p-button {
+    width: auto;
+}
+
+/* Animation */
+/* Center */
+.p-dialog-enter-active {
+    -webkit-transition: all 150ms cubic-bezier(0, 0, 0.2, 1);
+    transition: all 150ms cubic-bezier(0, 0, 0.2, 1);
+}
+.p-dialog-leave-active {
+    -webkit-transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.p-dialog-enter-from,
+.p-dialog-leave-to {
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+}
+
+/* Top, Bottom, Left, Right, Top* and Bottom* */
+.p-dialog-top .p-dialog,
+.p-dialog-bottom .p-dialog,
+.p-dialog-left .p-dialog,
+.p-dialog-right .p-dialog,
+.p-dialog-topleft .p-dialog,
+.p-dialog-topright .p-dialog,
+.p-dialog-bottomleft .p-dialog,
+.p-dialog-bottomright .p-dialog {
+    margin: 0.75rem;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}
+.p-dialog-top .p-dialog-enter-active,
+.p-dialog-top .p-dialog-leave-active,
+.p-dialog-bottom .p-dialog-enter-active,
+.p-dialog-bottom .p-dialog-leave-active,
+.p-dialog-left .p-dialog-enter-active,
+.p-dialog-left .p-dialog-leave-active,
+.p-dialog-right .p-dialog-enter-active,
+.p-dialog-right .p-dialog-leave-active,
+.p-dialog-topleft .p-dialog-enter-active,
+.p-dialog-topleft .p-dialog-leave-active,
+.p-dialog-topright .p-dialog-enter-active,
+.p-dialog-topright .p-dialog-leave-active,
+.p-dialog-bottomleft .p-dialog-enter-active,
+.p-dialog-bottomleft .p-dialog-leave-active,
+.p-dialog-bottomright .p-dialog-enter-active,
+.p-dialog-bottomright .p-dialog-leave-active {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.p-dialog-top .p-dialog-enter-from,
+.p-dialog-top .p-dialog-leave-to {
+    -webkit-transform: translate3d(0px, -100%, 0px);
+            transform: translate3d(0px, -100%, 0px);
+}
+.p-dialog-bottom .p-dialog-enter-from,
+.p-dialog-bottom .p-dialog-leave-to {
+    -webkit-transform: translate3d(0px, 100%, 0px);
+            transform: translate3d(0px, 100%, 0px);
+}
+.p-dialog-left .p-dialog-enter-from,
+.p-dialog-left .p-dialog-leave-to,
+.p-dialog-topleft .p-dialog-enter-from,
+.p-dialog-topleft .p-dialog-leave-to,
+.p-dialog-bottomleft .p-dialog-enter-from,
+.p-dialog-bottomleft .p-dialog-leave-to {
+    -webkit-transform: translate3d(-100%, 0px, 0px);
+            transform: translate3d(-100%, 0px, 0px);
+}
+.p-dialog-right .p-dialog-enter-from,
+.p-dialog-right .p-dialog-leave-to,
+.p-dialog-topright .p-dialog-enter-from,
+.p-dialog-topright .p-dialog-leave-to,
+.p-dialog-bottomright .p-dialog-enter-from,
+.p-dialog-bottomright .p-dialog-leave-to {
+    -webkit-transform: translate3d(100%, 0px, 0px);
+            transform: translate3d(100%, 0px, 0px);
+}
+
+/* Maximize */
+.p-dialog-maximized {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+            transform: none;
+    width: 100vw !important;
+    height: 100vh !important;
+    top: 0px !important;
+    left: 0px !important;
+    max-height: 100%;
+    height: 100%;
+}
+.p-dialog-maximized .p-dialog-content {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+/* Position */
+.p-dialog-left {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.p-dialog-right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.p-dialog-top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.p-dialog-topleft {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.p-dialog-topright {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.p-dialog-bottom {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.p-dialog-bottomleft {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.p-dialog-bottomright {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.p-confirm-dialog .p-dialog-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+</style><style type="text/css">
+.p-card-header img {
+    width: 100%;
+}
+</style><style type="text/css">
+.p-password {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.p-password-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-password .p-password-panel {
+    min-width: 100%;
+}
+.p-password-meter {
+    height: 10px;
+}
+.p-password-strength {
+    height: 100%;
+    width: 0;
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+.p-fluid .p-password {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+</style><style type="text/css">
+.p-inputnumber {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.p-inputnumber-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button .p-button-label,
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button .p-button-label {
+    display: none;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button-up {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0;
+}
+.p-inputnumber-buttons-stacked .p-inputnumber-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.p-inputnumber-buttons-stacked .p-button.p-inputnumber-button-down {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0;
+}
+.p-inputnumber-buttons-stacked .p-inputnumber-button-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.p-inputnumber-buttons-stacked .p-inputnumber-button-group .p-button.p-inputnumber-button {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button-up {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.p-inputnumber-buttons-horizontal .p-inputnumber-input {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    border-radius: 0;
+}
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button-down {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.p-inputnumber-buttons-vertical {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.p-inputnumber-buttons-vertical .p-button.p-inputnumber-button-up {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+}
+.p-inputnumber-buttons-vertical .p-inputnumber-input {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    border-radius: 0;
+    text-align: center;
+}
+.p-inputnumber-buttons-vertical .p-button.p-inputnumber-button-down {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+}
+.p-inputnumber-input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+.p-fluid .p-inputnumber {
+    width: 100%;
+}
+.p-fluid .p-inputnumber .p-inputnumber-input {
+    width: 1%;
+}
+.p-fluid .p-inputnumber-buttons-vertical .p-inputnumber-input {
+    width: 100%;
+}
+</style><style type="text/css">
+.p-inputtextarea-resizable {
+    overflow: hidden;
+    resize: none;
+}
+.p-fluid .p-inputtextarea {
+    width: 100%;
+}
+</style><style type="text/css">
+.p-inputswitch {
+    position: relative;
+    display: inline-block;
+}
+.p-inputswitch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.p-inputswitch-slider:before {
+    position: absolute;
+    content: '';
+    top: 50%;
+}
+</style><style type="text/css">
+.p-virtualscroller {
+    position: relative;
+    overflow: auto;
+    contain: strict;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: scroll-position;
+    outline: 0 none;
+}
+.p-virtualscroller-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    contain: content;
+    min-height: 100%;
+    min-width: 100%;
+    will-change: transform;
+}
+.p-virtualscroller-spacer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 1px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    pointer-events: none;
+}
+.p-virtualscroller .p-virtualscroller-loader {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.p-virtualscroller-loader.p-component-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+</style><style type="text/css">
+.p-dropdown {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.p-dropdown-clear-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+}
+.p-dropdown-trigger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+.p-dropdown-label {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    width: 1%;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.p-dropdown-label-empty {
+    overflow: hidden;
+    opacity: 0;
+}
+input.p-dropdown-label {
+    cursor: default;
+}
+.p-dropdown .p-dropdown-panel {
+    min-width: 100%;
+}
+.p-dropdown-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-dropdown-items-wrapper {
+    overflow: auto;
+}
+.p-dropdown-item {
+    cursor: pointer;
+    font-weight: normal;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+.p-dropdown-item-group {
+    cursor: auto;
+}
+.p-dropdown-items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.p-dropdown-filter {
+    width: 100%;
+}
+.p-dropdown-filter-container {
+    position: relative;
+}
+.p-dropdown-filter-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+}
+.p-fluid .p-dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.p-fluid .p-dropdown .p-dropdown-label {
+    width: 1%;
+}
+</style><style type="text/css">
+.p-slider {
+    position: relative;
+}
+.p-slider .p-slider-handle {
+    position: absolute;
+    cursor: -webkit-grab;
+    cursor: grab;
+    -ms-touch-action: none;
+        touch-action: none;
+    display: block;
+}
+.p-slider-range {
+    position: absolute;
+    display: block;
+}
+.p-slider-horizontal .p-slider-range {
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.p-slider-horizontal .p-slider-handle {
+    top: 50%;
+}
+.p-slider-vertical {
+    height: 100px;
+}
+.p-slider-vertical .p-slider-handle {
+    left: 50%;
+}
+.p-slider-vertical .p-slider-range {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+</style><style type="text/css">
+.p-divider-horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-divider-horizontal:before {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: '';
+}
+.p-divider-horizontal.p-divider-left {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.p-divider-horizontal.p-divider-right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.p-divider-horizontal.p-divider-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.p-divider-content {
+    z-index: 1;
+}
+.p-divider-vertical {
+    min-height: 100%;
+    margin: 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.p-divider-vertical:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    content: '';
+}
+.p-divider-vertical.p-divider-top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.p-divider-vertical.p-divider-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-divider-vertical.p-divider-bottom {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.p-divider-solid.p-divider-horizontal:before {
+    border-top-style: solid;
+}
+.p-divider-solid.p-divider-vertical:before {
+    border-left-style: solid;
+}
+.p-divider-dashed.p-divider-horizontal:before {
+    border-top-style: dashed;
+}
+.p-divider-dashed.p-divider-vertical:before {
+    border-left-style: dashed;
+}
+.p-divider-dotted.p-divider-horizontal:before {
+    border-top-style: dotted;
+}
+.p-divider-dotted.p-divider-horizontal:before {
+    border-left-style: dotted;
+}
+</style><style type="text/css">
+.p-chips {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.p-chips-multiple-container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    cursor: text;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.p-chips-token {
+    cursor: default;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+}
+.p-chips-input-token {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.p-chips-token-icon {
+    cursor: pointer;
+}
+.p-chips-input-token input {
+    border: 0 none;
+    outline: 0 none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+}
+.p-fluid .p-chips {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+</style><style type="text/css">
+.p-chip {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-chip-text {
+    line-height: 1.5;
+}
+.p-chip-icon.pi {
+    line-height: 1.5;
+}
+.p-chip-remove-icon {
+    line-height: 1.5;
+    cursor: pointer;
+}
+.p-chip img {
+    border-radius: 50%;
+}
+</style><style type="text/css">
+.p-paginator {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.p-paginator-left-content {
+    margin-right: auto;
+}
+.p-paginator-right-content {
+    margin-left: auto;
+}
+.p-paginator-page,
+.p-paginator-next,
+.p-paginator-last,
+.p-paginator-first,
+.p-paginator-prev,
+.p-paginator-current {
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 1;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    overflow: hidden;
+    position: relative;
+}
+.p-paginator-element:focus {
+    z-index: 1;
+    position: relative;
+}
+</style><style type="text/css">
+.p-datatable {
+    position: relative;
+}
+.p-datatable table {
+    border-collapse: collapse;
+    min-width: 100%;
+    table-layout: fixed;
+}
+.p-datatable .p-sortable-column {
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.p-datatable .p-sortable-column .p-column-title,
+.p-datatable .p-sortable-column .p-sortable-column-icon,
+.p-datatable .p-sortable-column .p-sortable-column-badge {
+    vertical-align: middle;
+}
+.p-datatable .p-sortable-column .p-sortable-column-badge {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.p-datatable-responsive-scroll > .p-datatable-wrapper {
+    overflow-x: auto;
+}
+.p-datatable-responsive-scroll > .p-datatable-wrapper > table,
+.p-datatable-auto-layout > .p-datatable-wrapper > table {
+    table-layout: auto;
+}
+.p-datatable-hoverable-rows .p-selectable-row {
+    cursor: pointer;
+}
+
+/* Scrollable */
+.p-datatable-scrollable .p-datatable-wrapper {
+    position: relative;
+    overflow: auto;
+}
+.p-datatable-scrollable .p-datatable-thead,
+.p-datatable-scrollable .p-datatable-tbody,
+.p-datatable-scrollable .p-datatable-tfoot {
+    display: block;
+}
+.p-datatable-scrollable .p-datatable-thead > tr,
+.p-datatable-scrollable .p-datatable-tbody > tr,
+.p-datatable-scrollable .p-datatable-tfoot > tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100%;
+}
+.p-datatable-scrollable .p-datatable-thead > tr > th,
+.p-datatable-scrollable .p-datatable-tbody > tr > td,
+.p-datatable-scrollable .p-datatable-tfoot > tr > td {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-datatable-scrollable .p-datatable-thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.p-datatable-scrollable .p-datatable-frozen-tbody {
+    position: sticky;
+    z-index: 1;
+}
+.p-datatable-scrollable .p-datatable-tfoot {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+.p-datatable-scrollable .p-frozen-column {
+    position: sticky;
+    background: inherit;
+}
+.p-datatable-scrollable th.p-frozen-column {
+    z-index: 1;
+}
+.p-datatable-scrollable-both .p-datatable-thead > tr > th,
+.p-datatable-scrollable-both .p-datatable-tbody > tr > td,
+.p-datatable-scrollable-both .p-datatable-tfoot > tr > td,
+.p-datatable-scrollable-horizontal .p-datatable-thead > tr > th .p-datatable-scrollable-horizontal .p-datatable-tbody > tr > td,
+.p-datatable-scrollable-horizontal .p-datatable-tfoot > tr > td {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+}
+.p-datatable-flex-scrollable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+}
+.p-datatable-flex-scrollable .p-datatable-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 100%;
+}
+.p-datatable-scrollable .p-rowgroup-header {
+    position: sticky;
+    z-index: 1;
+}
+.p-datatable-scrollable.p-datatable-grouped-header .p-datatable-thead,
+.p-datatable-scrollable.p-datatable-grouped-footer .p-datatable-tfoot {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+.p-datatable-scrollable.p-datatable-grouped-header .p-datatable-thead > tr,
+.p-datatable-scrollable.p-datatable-grouped-footer .p-datatable-tfoot > tr {
+    display: table-row;
+}
+.p-datatable-scrollable.p-datatable-grouped-header .p-datatable-thead > tr > th,
+.p-datatable-scrollable.p-datatable-grouped-footer .p-datatable-tfoot > tr > td {
+    display: table-cell;
+}
+.p-datatable-scrollable .p-virtualscroller > .p-datatable-table {
+    display: inline-block; /* For Safari */
+}
+
+/* Resizable */
+.p-datatable-resizable > .p-datatable-wrapper {
+    overflow-x: auto;
+}
+.p-datatable-resizable .p-datatable-thead > tr > th,
+.p-datatable-resizable .p-datatable-tfoot > tr > td,
+.p-datatable-resizable .p-datatable-tbody > tr > td {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.p-datatable-resizable .p-resizable-column:not(.p-frozen-column) {
+    background-clip: padding-box;
+    position: relative;
+}
+.p-datatable-resizable-fit .p-resizable-column:last-child .p-column-resizer {
+    display: none;
+}
+.p-datatable .p-column-resizer {
+    display: block;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 0.5rem;
+    height: 100%;
+    padding: 0px;
+    cursor: col-resize;
+    border: 1px solid transparent;
+}
+.p-datatable .p-column-header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-datatable .p-column-resizer-helper {
+    width: 1px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+.p-datatable .p-row-editor-init,
+.p-datatable .p-row-editor-save,
+.p-datatable .p-row-editor-cancel {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Expand */
+.p-datatable .p-row-toggler {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Reorder */
+.p-datatable-reorder-indicator-up,
+.p-datatable-reorder-indicator-down {
+    position: absolute;
+    display: none;
+}
+.p-reorderable-column,
+.p-datatable-reorderablerow-handle {
+    cursor: move;
+}
+
+/* Loader */
+.p-datatable .p-datatable-loading-overlay {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 2;
+}
+
+/* Filter */
+.p-column-filter-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+}
+.p-column-filter-menu {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: auto;
+}
+.p-column-filter-row .p-column-filter-element {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    width: 1%;
+}
+.p-column-filter-menu-button,
+.p-column-filter-clear-button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+.p-column-filter-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-column-filter-row-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.p-column-filter-row-item {
+    cursor: pointer;
+}
+.p-column-filter-add-button,
+.p-column-filter-remove-button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.p-column-filter-add-button .p-button-label,
+.p-column-filter-remove-button .p-button-label {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+}
+.p-column-filter-buttonbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.p-column-filter-buttonbar .p-button:not(.p-button-icon-only) {
+    width: auto;
+}
+
+/* Responsive */
+.p-datatable .p-datatable-tbody > tr > td > .p-column-title {
+    display: none;
+}
+
+/* VirtualScroller */
+.p-datatable .p-virtualscroller-loading {
+    -webkit-transform: none !important;
+            transform: none !important;
+    min-height: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+</style><style type="text/css">
+.p-tabview-nav-container {
+    position: relative;
+}
+.p-tabview-scrollable .p-tabview-nav-container {
+    overflow: hidden;
+}
+.p-tabview-nav-content {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-scroll-chaining: contain auto;
+        overscroll-behavior: contain auto;
+}
+.p-tabview-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+.p-tabview-header-action {
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+}
+.p-tabview-ink-bar {
+    display: none;
+    z-index: 1;
+}
+.p-tabview-header-action:focus {
+    z-index: 1;
+}
+.p-tabview-title {
+    line-height: 1;
+    white-space: nowrap;
+}
+.p-tabview-nav-btn {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.p-tabview-nav-prev {
+    left: 0;
+}
+.p-tabview-nav-next {
+    right: 0;
+}
+.p-tabview-nav-content::-webkit-scrollbar {
+    display: none;
+}
+</style><style type="text/css">
+.p-menu-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.p-menu .p-menuitem-link {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+.p-menu .p-menuitem-text {
+    line-height: 1;
+}
+</style><style type="text/css">
+.p-chart {
+    position: relative;
+}
+</style><style type="text/css">
+.p-overlaypanel {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+}
+.p-overlaypanel-flipped {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.p-overlaypanel-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Animation */
+.p-overlaypanel-enter-from {
+    opacity: 0;
+    -webkit-transform: scaleY(0.8);
+            transform: scaleY(0.8);
+}
+.p-overlaypanel-leave-to {
+    opacity: 0;
+}
+.p-overlaypanel-enter-active {
+    -webkit-transition: opacity 0.12s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 0.12s cubic-bezier(0, 0, 0.2, 1);
+    transition: opacity 0.12s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 0.12s cubic-bezier(0, 0, 0.2, 1);
+    transition: transform 0.12s cubic-bezier(0, 0, 0.2, 1), opacity 0.12s cubic-bezier(0, 0, 0.2, 1);
+    transition: transform 0.12s cubic-bezier(0, 0, 0.2, 1), opacity 0.12s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 0.12s cubic-bezier(0, 0, 0.2, 1);
+}
+.p-overlaypanel-leave-active {
+    -webkit-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+.p-overlaypanel:after,
+.p-overlaypanel:before {
+    bottom: 100%;
+    left: calc(var(--overlayArrowLeft, 0) + 1.25rem);
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.p-overlaypanel:after {
+    border-width: 8px;
+    margin-left: -8px;
+}
+.p-overlaypanel:before {
+    border-width: 10px;
+    margin-left: -10px;
+}
+.p-overlaypanel-flipped:after,
+.p-overlaypanel-flipped:before {
+    bottom: auto;
+    top: 100%;
+}
+.p-overlaypanel.p-overlaypanel-flipped:after {
+    border-bottom-color: transparent;
+}
+.p-overlaypanel.p-overlaypanel-flipped:before {
+    border-bottom-color: transparent;
+}
+</style><style type="text/css">
+.p-progressbar {
+    position: relative;
+    overflow: hidden;
+}
+.p-progressbar-determinate .p-progressbar-value {
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    display: none;
+    border: 0 none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+}
+.p-progressbar-determinate .p-progressbar-label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.p-progressbar-determinate .p-progressbar-value-animate {
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+.p-progressbar-indeterminate .p-progressbar-value::before {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: p-progressbar-indeterminate-anim 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+    animation: p-progressbar-indeterminate-anim 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
+.p-progressbar-indeterminate .p-progressbar-value::after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: p-progressbar-indeterminate-anim-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    animation: p-progressbar-indeterminate-anim-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    -webkit-animation-delay: 1.15s;
+    animation-delay: 1.15s;
+}
+@-webkit-keyframes p-progressbar-indeterminate-anim {
+0% {
+        left: -35%;
+        right: 100%;
+}
+60% {
+        left: 100%;
+        right: -90%;
+}
+100% {
+        left: 100%;
+        right: -90%;
+}
+}
+@keyframes p-progressbar-indeterminate-anim {
+0% {
+        left: -35%;
+        right: 100%;
+}
+60% {
+        left: 100%;
+        right: -90%;
+}
+100% {
+        left: 100%;
+        right: -90%;
+}
+}
+@-webkit-keyframes p-progressbar-indeterminate-anim-short {
+0% {
+        left: -200%;
+        right: 100%;
+}
+60% {
+        left: 107%;
+        right: -8%;
+}
+100% {
+        left: 107%;
+        right: -8%;
+}
+}
+@keyframes p-progressbar-indeterminate-anim-short {
+0% {
+        left: -200%;
+        right: 100%;
+}
+60% {
+        left: 107%;
+        right: -8%;
+}
+100% {
+        left: 107%;
+        right: -8%;
+}
+}
+</style><style type="text/css">
+.p-calendar {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    max-width: 100%;
+}
+.p-calendar .p-inputtext {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    width: 1%;
+}
+.p-calendar-w-btn .p-inputtext {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.p-calendar-w-btn .p-datepicker-trigger {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Fluid */
+.p-fluid .p-calendar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.p-fluid .p-calendar .p-inputtext {
+    width: 1%;
+}
+
+/* Datepicker */
+.p-calendar .p-datepicker {
+    min-width: 100%;
+}
+.p-datepicker {
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-datepicker-inline {
+    display: inline-block;
+    position: static;
+    overflow-x: auto;
+}
+
+/* Header */
+.p-datepicker-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.p-datepicker-header .p-datepicker-title {
+    margin: 0 auto;
+}
+.p-datepicker-prev,
+.p-datepicker-next {
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Multiple Month DatePicker */
+.p-datepicker-multiple-month .p-datepicker-group-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.p-datepicker-multiple-month .p-datepicker-group-container .p-datepicker-group {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+
+/* DatePicker Table */
+.p-datepicker table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.p-datepicker td > span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Month Picker */
+.p-monthpicker-month {
+    width: 33.3%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Year Picker */
+.p-yearpicker-year {
+    width: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+/*  Button Bar */
+.p-datepicker-buttonbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/* Time Picker */
+.p-timepicker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.p-timepicker button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.p-timepicker > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* Touch UI */
+.p-datepicker-touch-ui,
+.p-calendar .p-datepicker-touch-ui {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 80vw;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+</style><link rel="modulepreload" as="script" crossorigin="" href="/assets/MainLayout.afb7ff0f.js"><link rel="stylesheet" href="assets/MainLayout.d6fa90d5.css"><link rel="canonical" href="https://www.pomonow.com/"><meta name="description" content="Customizable Pomodoro Technique tracker with notification, image &amp; music. To-do list with Tomato time management. Boost your productivity &amp; focus on your work" data-vue-router-controlled=""><meta name="keywords" content="PomoNow, Free, Pomodoro, Timer, Online, Customizable, Technique, tracker, notification, background, image, music, To-do list, Tomato, time, management, boost, productivity, cirillo, timeboxing, pomo, pomodor, break, task, minutes, length, short, long, interval" data-vue-router-controlled=""><link rel="modulepreload" as="script" crossorigin="" href="/assets/index.24ec79f9.js"><link rel="stylesheet" href="assets/index.3d8b91cb.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/Footer.8df75104.js"><link rel="stylesheet" href="assets/Footer.14f2f4d9.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/index.7a7ac6fd.js"><link rel="modulepreload" as="script" crossorigin="" href="/assets/RegisterComponent.cd355720.js"><link rel="stylesheet" href="assets/RegisterComponent.cc145269.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/LoginComponent.94b98425.js"><link rel="stylesheet" href="assets/LoginComponent.9186d158.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/Hero.7a550bf7.js"><link rel="stylesheet" href="assets/Hero.9f5daf76.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/PredefinedTimerComponent.c4cc326a.js"><link rel="stylesheet" href="assets/PredefinedTimerComponent.fd2528b6.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/QuestionsAndFeatures.909801b2.js"><link rel="stylesheet" href="assets/QuestionsAndFeatures.d7fc1b6e.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/PomodoroComponent.f8a8f7a2.js"><link rel="stylesheet" href="assets/PomodoroComponent.e39dd39c.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/PomodoroCard.e161c6bd.js"><link rel="stylesheet" href="assets/PomodoroCard.36ae586e.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/NewProjectComponent.07515631.js"><link rel="stylesheet" href="assets/NewProjectComponent.cdfd88b3.css"><link rel="modulepreload" as="script" crossorigin="" href="/assets/ResetTimerComponent.4175e1bb.js"><link rel="stylesheet" href="assets/ResetTimerComponent.0c7684b7.css"><!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Z18DLH8XN0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z18DLH8XN0');
+</script><script async="" src="../pagead2.googlesyndication.com/pagead/js/adsbygoogle_client%3Dca-pub-3607349287876404.js" crossorigin="anonymous"></script></head>
+  <body>
+    <div id="app" data-v-app=""><div class="layout" data-v-febb4e5c=""><div class="toolbar shadow-1 pomodoro-btn-background" data-v-febb4e5c=""><div class="toolbar-content p-1 mx-auto" data-v-febb4e5c=""><div class="toolbar-content flex align-items-center" data-v-febb4e5c=""><div class="mr-auto" data-v-febb4e5c=""><button class="p-button p-component no-background text-white home-btn" type="button" aria-label="PomoNow" data-v-febb4e5c=""><!----><span class="pi pi-check-circle p-button-icon p-button-icon-left"></span><span class="p-button-label">PomoNow</span><!----><span class="p-ink" role="presentation"></span></button></div><div class="ml-auto menu-btns" data-v-febb4e5c=""><div class="scroll-to-timers-div" data-v-febb4e5c=""><div class="timer-icon-div" data-v-febb4e5c=""><svg class="svg-inline--fa fa-clock" aria-hidden="true" focusable="false" data-prefix="far" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-v-febb4e5c=""><path class="" fill="currentColor" d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"></path></svg></div><span class="scroll-to-timers" data-v-febb4e5c="">Timer</span></div><button class="p-button p-component ml-2 p-button-sm clear-background text-white" type="button" aria-label="Report" data-v-febb4e5c=""><!----><span class="pi pi-chart-bar p-button-icon p-button-icon-left"></span><span class="p-button-label">Report</span><!----><span class="p-ink" role="presentation"></span></button><button class="p-button p-component ml-2 p-button-sm clear-background text-white" type="button" aria-label="Settings" data-v-febb4e5c=""><!----><span class="pi pi-cog p-button-icon p-button-icon-left"></span><span class="p-button-label">Settings</span><!----><span class="p-ink" role="presentation"></span></button><button class="p-button p-component ml-2 p-button-sm clear-background text-white" type="button" aria-label="Login" data-v-febb4e5c=""><!----><!----><span class="p-button-label">Login</span><!----><span class="p-ink" role="presentation"></span></button><button class="p-button p-component ml-2 p-button-sm clear-background text-white" type="button" aria-label="Register" data-v-febb4e5c=""><!----><!----><span class="p-button-label">Register</span><!----><span class="p-ink" role="presentation"></span></button><!----></div><div class="menu-btn-bar ml-auto" data-v-febb4e5c=""><button class="p-button p-component p-button-icon-only menu-btn" type="button" aria-haspopup="true" aria-controls="overlay_panel" data-v-febb4e5c=""><!----><span class="pi pi-bars p-button-icon"></span><span class="p-button-label">&nbsp;</span><!----><span class="p-ink" role="presentation"></span></button></div></div><!----></div></div><video class="muted-audio" id="mutedAudio" autoplay="" data-v-a1ab8da0=""><source src="assets/alarm/Cuckoo.mp3" type="audio/mpeg" data-v-a1ab8da0=""></video><div class="hero pomodoro-background" data-v-671fe6b8="" data-v-a1ab8da0="" style=""><div class="grid grid-nogutter top-padding-sm pomodoro-container" tabindex="0" data-v-0cb3cdce="" data-v-671fe6b8=""><div class="col-12 sm:col-12 md:col-12 lg:col-8 pl-3 pomo-card-col pr-3" data-v-0cb3cdce=""><div class="grid grid-nogutter" data-v-0cb3cdce=""><div class="col-12 sm:col-12 md:col-12 lg:col-6 lg:col-offset-3 flex justify-content-center" data-v-0cb3cdce=""><div class="p-card p-component pomodoro-card" data-v-7834ba2b="" data-v-0cb3cdce=""><!----><div class="p-card-body"><!----><!----><div class="p-card-content"><div class="card-content text-center" data-v-7834ba2b=""><div class="card-mode-div flex justify-content-center" data-v-7834ba2b=""><button class="p-button p-component p-button-sm  mode-btn mx-1 pomodoro-btn-background" type="button" aria-label="Pomodoro" data-v-7834ba2b=""><!----><!----><span class="p-button-label">Pomodoro</span><!----><span class="p-ink" role="presentation"></span></button><button class="p-button p-component p-button-sm  mode-btn mx-1 pomodoro-btn-background" type="button" aria-label="Short Break" data-v-7834ba2b=""><!----><!----><span class="p-button-label">Short Break</span><!----><span class="p-ink" role="presentation"></span></button><button class="p-button p-component p-button-sm  mode-btn mx-1 pomodoro-btn-background" type="button" aria-label="Long Break" data-v-7834ba2b=""><!----><!----><span class="p-button-label">Long Break</span><!----><span class="p-ink" role="presentation"></span></button></div><div class="card-timer flex justify-content-center" data-v-7834ba2b=""><span data-v-7834ba2b="">25:00</span></div><div class="timer-action-div grid no-gutter" data-v-7834ba2b=""><div class="col-12 sm:col-12 md:col-3 lg:col-3 p-0" data-v-7834ba2b=""><!----></div><div class="col-12 sm:col-12 md:col-6 lg:col-6 flex justify-content-center p-0" data-v-7834ba2b=""><button class="p-button p-component timer-action-btn shadow-1 pomodoro-btn-background" type="button" aria-label="Start" data-v-7834ba2b=""><!----><!----><span class="p-button-label">Start</span><!----><span class="p-ink" role="presentation"></span></button><!----></div><div class="col-12 sm:col-12 md:col-3 lg:col-3 p-0" data-v-7834ba2b=""><!----></div></div></div></div><!----></div></div></div><!----></div></div><div class="col-12 sm:col-12 md:col-12 lg:col-4 flex justify-content-center tasks-col pl-3 pr-3" data-v-0cb3cdce=""><div class="tasks pl-3 lg:pr-3" data-v-0cb3cdce=""><div class="header flex justify-content-between align-items-center p-2" data-v-0cb3cdce=""><div class="tasks-title" data-v-0cb3cdce=""><span class="text-2xl font-bold tasks-title-span" data-v-0cb3cdce="">Tasks</span></div><button class="p-button p-component p-button-icon-only tasks-ellipsis-btn shadow-2" type="button" data-v-0cb3cdce=""><!----><span class="pi pi-ellipsis-v text-lg p-button-icon"></span><span class="p-button-label">&nbsp;</span><!----><span class="p-ink" role="presentation"></span></button></div><!----><div class="p-2 mb-3" data-v-0cb3cdce=""><div class="add-tasks-div flex justify-content-center align-items-center" data-v-0cb3cdce=""><i class="pi pi-plus-circle text-2xl" data-v-0cb3cdce=""></i><span class="text-lg ml-2 font-bold" data-v-0cb3cdce="">Add Task</span></div></div><!----></div></div><div class="col-12 sm:col-12 md:col-12 lg:col-12 change-background-col" data-v-0cb3cdce=""><div class="change-background-div" data-v-0cb3cdce=""><svg class="svg-inline--fa fa-xmark reset-background-btn" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-v-0cb3cdce=""><path class="" fill="currentColor" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"></path></svg><button class="p-button p-component change-background-btn" type="button" data-v-0cb3cdce=""><i class="pi pi-images" data-v-0cb3cdce="" style="font-size: 2rem;"></i><span class="p-ink" role="presentation"></span></button></div></div></div></div><div class="predefined-timer-container" id="predefined_timer_container" data-v-ea4c3620="" data-v-a1ab8da0=""><div class="container" data-v-ea4c3620=""><div class="grid" data-v-ea4c3620=""><div class="col-12 text-center" data-v-ea4c3620=""><p class="title" data-v-ea4c3620="">Check Out The Asthetic Timer:</p></div><div class="col-12 sm:col-12 md:col-6 lg:col-3 text-center" data-v-ea4c3620=""><div class="grid-nogutter" data-v-ea4c3620=""><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">2 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">3 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">4 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">5 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">6 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">7 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">8 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">9 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">10 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">11 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">12 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">13 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">14 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">15 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">16 Minute Timer</p></div></div></div><div class="col-12 sm:col-12 md:col-6 lg:col-3 text-center" data-v-ea4c3620=""><div class="grid-nogutter" data-v-ea4c3620=""><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">1 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">2 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">3 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">5 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">10 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">15 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">20 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">25 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">30 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">35 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">40 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">45 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">50 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">60 Second Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">90 Second Timer</p></div></div></div><div class="col-12 sm:col-12 md:col-6 lg:col-3 text-center" data-v-ea4c3620=""><div class="grid-nogutter" data-v-ea4c3620=""><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">1 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">2 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">3 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">5 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">10 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">15 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">20 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">25 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">30 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">35 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">40 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">45 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">50 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">60 Minute Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">90 Minute Timer</p></div></div></div><div class="col-12 sm:col-12 md:col-6 lg:col-3 text-center" data-v-ea4c3620=""><div class="grid-nogutter" data-v-ea4c3620=""><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">1 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">2 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">3 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">4 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">5 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">6 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">7 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">8 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">9 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">10 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">12 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">18 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">24 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">48 Hour Timer</p></div><div class="col-12" data-v-ea4c3620=""><p class="link-p" data-v-ea4c3620="">72 Hour Timer</p></div></div></div></div></div></div><div class="questions-features-container" data-v-41993c80="" data-v-a1ab8da0=""><div class="container content" data-v-41993c80=""><div class="grid justify-center" data-v-41993c80=""><div class="sm:col-12 md:col-12 lg:col-12 text-center" data-v-41993c80=""><h1 data-v-41993c80="">Online Pomodoro Technique - 25 minutes Timer to boost your productivity</h1></div><div class="sm:col-12 md:col-12 lg:col-12" data-v-41993c80=""><h2 data-v-41993c80="">What is PomoNow and the Pomodoro Technique ?</h2><p data-v-41993c80="">PomoNow is the best customizable pomodoro timer and online timer that works on all devices. It is also called tomato timer or pomodoro tracker. PomoNow app allows you to boost your productivity by focusing on your personalized tasks. PomoNow also named pomofocus is a free pomodoro and aesthetic timer online.</p><p data-v-41993c80="">PomoNow is based on the Pomodoro Technique, a time management method developed by Francesco Cirillo. This technique aims to increase the productivity of work or study, with a timer for task and a break. This technique allows to break the work into interval, traditionally a 25 minutes length of task separated by a short break.</p><p data-v-41993c80="">Each interval is known as a Pomodoro, derived from the Italian word "tomato".</p></div><div class="sm:col-12 md:col-12 lg:col-12" data-v-41993c80=""><h2 data-v-41993c80="">How to use the Pomodoro Timer ?</h2><ol data-v-41993c80=""><li data-v-41993c80="">Start by adding tasks for your work</li><li data-v-41993c80="">Set the estimate time for each task (by default 1 pomodoro = 25 minutes)</li><li data-v-41993c80="">Select a task and start the timer</li><li data-v-41993c80="">Take a break for 5 minutes when the alarm ring, or a long break for 15 minutes every 4 tasks</li><li data-v-41993c80="">Mark the accomplished task as done</li><li data-v-41993c80="">Repeat Until you finish the tasks</li></ol></div><div class="sm:col-12 md:col-12 lg:col-12" data-v-41993c80=""><h2 data-v-41993c80="">Features</h2><ul data-v-41993c80=""><li data-v-41993c80="">Personalized background image</li><li data-v-41993c80="">Color effect which switch between task and break</li><li data-v-41993c80="">Responsive design on all devices</li><li data-v-41993c80="">Customizable timer for the task and the break</li><li data-v-41993c80="">Audio notification editable as you want</li></ul></div></div></div></div><div data-v-febb4e5c=""><div class="footer-container" data-v-4a2bf8c7="" data-v-febb4e5c=""><div class="container" data-v-4a2bf8c7=""><div class="grid" data-v-4a2bf8c7=""><div class="col text-center text-white" data-v-4a2bf8c7=""><p class="footer-title" data-v-4a2bf8c7="">PomoNow allows you set your timeframe and schedule in breaks</p></div></div><div class="grid" data-v-4a2bf8c7=""><div class="sm:col-12 md:col-4 col footer-col" data-v-4a2bf8c7=""><p class="title" data-v-4a2bf8c7="">PRODUCTS</p><p data-v-4a2bf8c7=""><a href="https://www.sendbig.com" target="_blank" class="footer-content-a" data-v-4a2bf8c7=""><i class="pi pi-file" style="font-size:15px;" data-v-4a2bf8c7=""></i>&nbsp;Send Files up to 30GB Free</a></p><p data-v-4a2bf8c7=""><a href="https://www.sendbig.com/snap" target="_blank" class="footer-content-a" data-v-4a2bf8c7=""><i class="pi pi-folder" style="font-size:15px;" data-v-4a2bf8c7=""></i>&nbsp;Send Self-Deleting Files</a></p><p data-v-4a2bf8c7=""><a href="https://www.sendbig.com/max" target="_blank" class="footer-content-a" data-v-4a2bf8c7=""><i class="pi pi-link" style="font-size:15px;" data-v-4a2bf8c7=""></i>&nbsp;Share Files with unlimited expiry date</a></p><p data-v-4a2bf8c7=""><a href="https://www.noterip.com/" target="_blank" class="footer-content-a" data-v-4a2bf8c7=""><i class="pi pi-envelope" style="font-size:15px;" data-v-4a2bf8c7=""></i>&nbsp;Send Self-Deleting Notes</a></p></div><div class="sm:col-12 md:col-4 col footer-col" data-v-4a2bf8c7=""><p class="title" data-v-4a2bf8c7="">ABOUT POMONOW</p><p data-v-4a2bf8c7=""><a href="/about" class="footer-content-a" data-v-4a2bf8c7="">About</a></p><p data-v-4a2bf8c7=""><a href="/terms" class="footer-content-a" data-v-4a2bf8c7="">Terms of use</a></p><p data-v-4a2bf8c7=""><a href="/our-policy" class="footer-content-a" data-v-4a2bf8c7="">Privacy Tools</a></p></div><div class="sm:col-12 md:col-4 col footer-col" data-v-4a2bf8c7=""><p class="title" data-v-4a2bf8c7="">SUPPORT</p><p data-v-4a2bf8c7=""><a href="mailto:support@pomonow.com" class="footer-content-a" data-v-4a2bf8c7=""><i class="pi pi-envelope" data-v-4a2bf8c7="" style="font-size: 15px;"></i>&nbsp;support@pomonow.com</a></p></div></div><div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" role="separator" aria-orientation="horizontal" data-v-4a2bf8c7=""><!----></div><div class="grid" data-v-4a2bf8c7=""><div class="sm:col-6 md:col-6 lg:col-6 footer-col text-left" data-v-4a2bf8c7=""><span class="text-white" data-v-4a2bf8c7=""> © 2022 PomoNow | All Rights Reserved </span></div><div class="sm:col-6 md:col-6 lg:col-6 footer-col text-right" data-v-4a2bf8c7=""><span data-v-4a2bf8c7=""><a href="https://www.facebook.com/pomonow" target="_blank" class="text-white footer-social-icon" data-v-4a2bf8c7=""><i class="pi pi-facebook" style="font-size:15px;" data-v-4a2bf8c7=""></i></a><a href="https://twitter.com/pomo_now" target="_blank" class="text-white footer-social-icon" data-v-4a2bf8c7=""><i class="pi pi-twitter" style="font-size:15px;" data-v-4a2bf8c7=""></i></a><a href="https://www.linkedin.com/company/87227906" target="_blank" class="text-white footer-social-icon" data-v-4a2bf8c7=""><i class="pi pi-linkedin" style="font-size:15px;" data-v-4a2bf8c7=""></i></a></span></div></div></div></div></div><!----><!----></div></div>
+    
+  
+
+<!----><div class="p-toast p-component p-toast-top-left"><div></div></div><!----><div class="p-toast p-component p-toast-top-left"><div></div></div></body></html>
